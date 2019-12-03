@@ -1,0 +1,63 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+	.banner-content{
+		margin-top: 45% !important;
+	}
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+
+	.banner-content{
+		margin-top: 35% !important;
+	}
+.col-md-4,.col-md-3{
+	margin: 40px 0;
+}
+	h2.title{
+		font-size: 44px;
+	}
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {  }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+
+@media (max-width: 575px) {
+	
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+	
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

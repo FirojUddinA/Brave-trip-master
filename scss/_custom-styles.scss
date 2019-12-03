@@ -1,0 +1,306 @@
+// Your custom styles
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h2.title{
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 52px;
+}
+
+#header-menu{
+	width: 100%;
+	height: 80vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.57)),url(../img/beach-bora-bora-calm-753626.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: scroll;
+	.head{
+		margin-top: 20px;
+
+
+		.logo{
+			width: 170px;
+			color: #ffffff;
+			font-size: 24px;
+			float: left;
+			img{
+				height: 50px;
+			}
+	
+		}
+		.login-btn{
+			width: 100px;
+			padding: 8px 0;
+			outline: none;
+			border: 2px solid #ffffff;
+			color: #ffffff;
+			background-color: transparent;
+			float: right;
+			border-radius: 50px;
+		}
+	}
+	.banner-content{
+		text-align: center;
+		color: #ffffff;
+		margin-top: 20%;
+		h1{
+
+			font-weight: bold;
+		}
+		p{
+			letter-spacing: 1.2px;
+		}
+
+		.input-group{
+			width: 80%;
+			max-width: 500px;
+			margin: 0 auto;
+			margin-top: 50px;
+			background: #ffffff;
+			border-radius: 30px;
+			padding: 2px;
+			input.form-control{
+				border: none;
+				outline: none;
+				background-color: transparent;
+				box-shadow: none;
+				border-radius: 30px;
+
+				&:focus{
+					outline: none;
+					border: none;
+				}
+
+			}
+
+			button.input-group-text{
+
+				background-color: transparent;
+				box-shadow: none;
+				border-radius: 30px;
+				text-align: center;
+				padding: 0 30px;
+				background-image: linear-gradient(#00ff7e,#1f3d90);
+				color: #ffffff;
+
+
+			}
+
+		}
+	}
+	
+}
+#features{
+	padding: 60px 0;
+
+	.feature-box{
+		.fa{
+			color: #ff5722;
+			margin-right: 5px;
+		}
+		.frature-img{
+			position: relative;
+			img{
+				width: 100%;
+				height: 180px;
+
+			}
+
+			.price{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				color: #ffffff;
+				background-color: #ff5722;
+				padding: 10px;
+				line-height: 30px;
+				text-align: center;
+				border-radius: 50%;
+				left: 20px;
+				bottom: -25px;
+
+			}
+			.rating{
+				background-color: #ffffff;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+
+				.fa{
+					font-size: 15px;
+					color: #ff5722;
+					margin-right: 0;
+				}
+			}
+		}
+		.feature-details{
+			margin-top: 30px;
+			h3{
+				font-weight: bold;
+
+			}
+			span{
+				.fa{
+					margin-right: 10px;
+
+					display: inline-block;
+				}
+			}
+		}
+
+	}
+}
+
+#gallery{
+	padding: 60px 0;
+	background-color: #e2e2e2;
+
+	.g-box{
+		width: 100%;
+		position: relative;
+		h4{
+			text-align: center;
+			font-weight: 600;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			color: #fff;
+			text-shadow: 0 0 5px #9e9e9e;
+			transform: translate(-50%,-50%);
+			font-size: 20px;
+			width: 100%;
+
+		}
+		img{
+			width: 100%;
+			//height: 150px;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: 1s;
+			overflow: hidden;
+
+
+		}
+		&:hover img{
+			transform: scale(1.1);
+		}
+	}
+}
+
+#banner{
+	background-image: url("../img/banner-bg.jpg");
+	height: 70vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	.banner-overlay{
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.55);
+		color: #ffffff;
+		width: 100%;
+		top: 50%;
+		margin-top: -100px;
+
+		.banner{
+			padding: 20px 0;
+			text-align: center;
+
+			button{
+				margin-top: 20px;
+
+				padding: 8px 25px;
+				outline: none;
+				border: 2px solid #ffffff;
+				color: #ffffff;
+				background-color: transparent;
+
+				border-radius: 50px;
+			}
+		}
+	}
+
+}
+
+#user_feedback{
+	padding: 60px 0;
+
+	.user-review{
+		box-shadow: 0 0 10px 0 #9e9e9e;
+		padding: 10px 10px 50px;
+		text-align: center;
+		position: relative;
+		p{
+			padding-top: 40px;
+
+			&:before{
+				position: absolute;
+				content: "\201d";
+				font-size: 100px;
+				color: #6495ed;
+				font-family: sans-serif;
+				top: -20px;
+				left: 50%;
+				transform: translateX(-50%);
+
+
+			}
+		}
+		img	{
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			display: block;
+			position: absolute;
+			bottom: -30px;
+			left: 50%;
+			margin-left: -30px;
+		}
+	}
+}
+
+
+footer#footer{
+
+	color: #ffffff;
+	padding: 60px 0 0;
+	background-image: linear-gradient(#2d557d,#9610fe);
+
+	.footer-logo{
+		font-size: 30px;
+		img{
+			margin-right: 10px;
+		}
+
+		margin-bottom: 20px;
+	}
+
+	h4{
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+	p{
+		text-align: justify;
+	}
+	.email{
+		font-size: 12px;
+	}
+	
+	hr{
+		background-color: #fefefe;
+	}
+
+	.copyright{
+		text-align: center;
+		i{
+			color: red;
+			margin: 0 5px;
+		}
+	}
+}
